@@ -1,0 +1,804 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+section.fullwidth {
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding: 0;
+	
+}
+div#d1128784.free-html .container-fluid {
+	max-width: 100% !important;
+}
+.basic-information .container-fluid.celarfix {
+	max-width: 100% !important;
+}
+.free-html > .container-fluid:first-child {
+	max-width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.breadcrumb{
+    display: none;
+}
+
+.gweb2 .navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+}
+.gweb2 .navbar-default .navbar-toggle,
+.gweb2 .navbar-default .navbar-collapse {
+	border: 0;
+}
+.gweb2 .navbar-default .navbar-toggle:focus,
+.gweb2 .navbar-default .navbar-toggle:hover {
+	border: 0;
+	/*background-color: transparent;*/
+}
+.gweb2 .navbar-inverse .navbar-nav>.active>a,
+.gweb2 .navbar-inverse .navbar-nav>.active>a:focus,
+.gweb2 .navbar-inverse .navbar-nav>.active>a:hover {
+	background: transparent;
+}
+
+
+.gweb2 .navbar-inverse {
+	border: 0;
+}
+.gweb2 .navbar {
+	margin-bottom: 0;
+	
+}
+.gweb2 .sticky-nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 101;
+}
+/* bootstrap 3 helpers */
+
+#nav.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:10;
+}
+
+
+.gweb2 .section-120 {
+	max-width: 120px;
+    width: 100%;
+    margin: 0 auto;
+}
+.gweb2 .ui-theme-custom {
+	color: #247ba0;
+}
+.gweb2 .ui-theme-black .ui-search label {
+	color: #fff;
+}
+
+.gweb2 .flexbox {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    /* padding: 0 1.25rem; */
+    
+    width: 100%;
+}
+.gweb2 .flexbox .skew-outer {
+    /* padding: 2rem; */
+    -webkit-flex: 3;
+    -moz-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+}
+
+.gweb2 .section-220 {
+    max-width: 220px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*==========  Mobile First Method  ==========*/
+
+	/*Custom Base Zero*/ 
+	@media only screen and (min-width : 0px) {
+		.gweb2 .clav-thirtyfifth-logo {
+			position: absolute;
+			top: 2%;
+			left: 0;
+			z-index: 1;
+		}
+		.bg-img.fullwidth {
+			background: url(../images/header-fallback1920x900.jpg);
+			background-repeat: no-repeat;
+			background-attachment: scroll;
+			background-origin: content-box;
+			background-position: center;
+			background-color: rgba(100,100,100,1.00);
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			background-size: cover;
+		}
+		.gweb2 div.ui-search div.fa {
+			float:right;
+			display:block;
+			position:relative;
+			margin-right:1px;
+			margin-top:0px;
+			width:42px;
+			line-height: 40px;
+			font-size: 2rem;
+			text-align:center;
+			z-index:10;
+			background:transparent;
+			/*background-color: #333;/*#48217a;*/
+			color: #5f5f5f;
+			/*color:#ddd;#b7a6cb;*/
+			line-height: calc(4rem - 2px);
+			line-height: calc(4rem + .8px );
+		   -webkit-transition: background .3s linear;  
+			transition: background .3s linear;
+			border: 0;
+			cursor:pointer;
+		}
+		
+		.gweb2 div.ui-search div.fa:hover{
+			/*background-color:#555!important;*/
+			color:#333;
+		}
+		.gweb2 div.ui-search .ui-input{
+			margin-right:-46px;
+			text-align:center;
+		}
+
+		.gweb2 .overlay-content {
+			position: absolute;
+			width: 50%;
+			z-index: 10;
+			/* margin: 0 auto; */
+			top: 25%;
+			left: 52%;
+		}
+		.gweb2 .overlay-content2 {
+			position: absolute;
+			width: 100%;
+			z-index: 10;
+			top: 0;
+			left: 8%;
+		}
+		.gweb2 .overlay-content3 {
+			position: absolute;
+			width: 100%;
+			z-index: 10;
+			top: 0;
+			left: 0;
+		}
+		.gweb2 .video-overlay-content {
+			position: absolute;
+			width: 100%;
+			z-index: 10;
+			top: 0;
+			/* left: 25%; */
+		}
+		.gweb2 .overlay-content .sx-logo {
+			padding-top: 0;
+		}
+		.gweb2 .sx-logo img {
+			margin: 0 auto;
+			width: 240px;
+		}
+		.section.bg-img {
+			padding: 120px 0;
+		}
+		.gweb2 .position-cta {
+			text-align: center;
+		}
+		.gweb2 .navbar-nav {
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+		}
+		.gweb2 .icon {
+			/* padding-left: 10px; */
+			margin-right: 15%;
+		}
+		.gweb2 .icon {
+			-moz-transition: all .5s linear;
+			-webkit-transition: all .5s linear;
+			transition: all .5s linear;
+		}
+		.gweb2 .icon.down {
+			-moz-transform:rotate(45deg);
+			-webkit-transform:rotate(45deg);
+			transform:rotate(45deg);
+		}
+		.gweb2 .divider {
+			border-bottom: 1px solid rgba(0, 0, 0, .30)
+		}
+		.gweb2 .yt-poster {
+			position: absolute;
+			top: 0;
+		} 
+		.gweb2 .video-top {
+			margin: auto;
+			z-index: -1;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			visibility: visible;
+			max-width: 100%;
+		}
+		.gweb2 .video-container {
+			height: auto;
+		}
+		.gweb2 .mid-video-container {
+			height: auto;
+		}
+		.gweb2 .product-compare-text {
+			text-align: center;
+		}
+		.gweb2 p.intro-text {
+			padding-bottom: 5px;
+		}
+		/* Video Custom Modal */
+		.video-box {
+			top: 0;
+			right: 0;
+			left: 0;
+			bottom: 0;
+			position: fixed;
+			z-index: 100;
+			overflow: hidden;
+			background: #000;
+		}
+		.video-close {
+			background: #222;
+			border-radius: 50%;
+			width: 32px;
+			height: 32px;
+			color: rgba(255, 255, 255, 0.77);
+			border: 1px solid rgba(255, 255, 255, 0.34);
+			top: 110px;
+			right: 50px;
+			text-align: center;
+			line-height: 1.5;
+			font-size: 2rem;
+			cursor: pointer;
+			position: absolute;
+			z-index: 100;
+		}
+		.video-iframe {
+		  width: 100%;
+		  height: 100%
+		}
+		.gweb2 .video-background {
+			position: relative;
+		}
+		.gweb2 .video-background .yt-player {
+			position: absolute;
+			top: 0;
+		}
+		.gweb2 .video-background img.ipad-bg {
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
+			height: 100%;
+			width: 100%;
+		}
+		.gweb2 div[data-frametype="YouTube"] {
+			cursor: pointer;
+		}
+		.gweb2 .slick-dots {
+			bottom: 35px;
+		}
+		.gweb2 .slick-dots li {
+			width: 40px;
+			height: 12px;
+			margin: 0;
+			padding: 0;
+		}
+		.gweb2 .slick-dots li button:before {
+			font-family: 'Open Sans', sans-serif;
+			content: '';
+			line-height: 0;
+		}
+		.gweb2 .slick-dots li button {
+			font-size: 0;
+			line-height: .75em;
+			width: 0;
+			height: 0;
+			padding: 3px 15px;
+			border-radius: 20px;
+			cursor: pointer;
+			color: white;
+			border: 0;
+			outline: none;
+			background: white;
+		}
+		.gweb2 .slick-dots li.slick-active button {
+			line-height: 1em;
+			padding: 5px 25px;
+			cursor: pointer;
+			border: 0;
+			outline: none;
+			background: #247ba0;
+		}
+		.gweb2 .slick-dots li.slick-active {
+			width: 60px;
+		}
+		.gweb2 .slick-dotted.slick-slider {
+			margin-bottom: 0;
+		}
+		.gweb2 .feature-text {
+			line-height: 2em;
+			font-family: 'Open Sans', sans-serif;
+		}
+		.gweb2 figure {
+			max-width: 100%;
+			overflow: hidden;
+			position: relative;
+			display: block;
+			margin: 0 auto;
+			/* box-shadow: 0 0 5px #333; */
+		}
+		.gweb2 figure img {
+			-webkit-transition: all 0.4s linear;
+			transition: all 0.4s linear;
+			-webkit-transform: scale3d(1, 1, 1);
+			transform: scale3d(1, 1, 1);
+
+		}
+		.gweb2 figure:hover img,
+		.gweb2 #model-objects figure:hover img {
+			-webkit-transform: scale3d(1.09, 1.09, 1);
+			transform: scale3d(1.09, 1.09, 1);
+		}
+
+		.gweb2 .video-thumbnail img {
+			-webkit-transition: all 0.4s linear;
+			transition: all 0.4s linear;
+			-webkit-transform: scale3d(1, 1, 1);
+			transform: scale3d(1, 1, 1);
+		}
+		.gweb2 .video-thumbnail:hover img {
+			-webkit-transform: scale3d(1.09, 1.09, 1);
+			transform: scale3d(1.09, 1.09, 1);
+		}
+
+		.gweb2 .skew-div {
+			position: relative;
+			z-index: 1;
+		}
+		.gweb2 .skew-div {
+			margin: 50px 0;
+		}
+		.gweb2 .skew-div.top::before, .gweb2 .skew-div.skew-div.bottom::after {
+			background: inherit;
+			content: '';
+			display: block;
+			height: 50%;
+			left: 0;
+			position: absolute;
+			right: 0;
+			z-index: -1;
+			-webkit-backface-visibility: hidden;
+			backface-visibility: hidden;
+		}
+		.gweb2 .skew-div.top::before {
+			top: 0;
+			-webkit-transform: skewY(1.5deg);
+					transform: skewY(1.5deg);
+			-webkit-transform-origin: 100%;
+					transform-origin: 100%;
+		}
+		.gweb2 .skew-div.skew-div.bottom::after {
+			bottom: 0;
+			-webkit-transform: skewY(-1.5deg);
+					transform: skewY(-1.5deg);
+			-webkit-transform-origin: 100%;
+					transform-origin: 100%;
+		}
+		.gweb2 .hero-banner {
+			overflow: hidden;
+			position: relative;
+		}
+		.gweb2 .hero-banner.bg-1 {
+			background-image: url(https://www.yamaha.com/US/ClavinovaListingPage/images/dl-lifestyle-bg.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center top;
+			max-height: 800px;
+		}
+		.gweb2 .hero-banner.bg-1 {
+			padding-top: 5%;
+			padding-bottom: 5%;
+		}
+		.gweb2 .content-card {
+			width: 100%;
+			margin-bottom: 15%;
+			overflow: hidden;
+			border-radius: 0px;
+			text-align: center;
+			box-shadow: 0px 10px 20px -9px rgba(0, 0, 0, 0.5);
+			transition: all 0.4s;
+		}
+		.gweb2 .content-image {
+			position: relative;
+		}
+		.gweb2 .content-image.bg1{
+			background: url(https://www.yamaha.com/US/ClavinovaListingPage/images/bg-center.jpg);
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: cover;
+		}
+		.gweb2 .content-image.bg2{
+			background: url(https://www.yamaha.com/US/ClavinovaListingPage/images/bg-left.jpg);
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: cover;
+		}
+		.gweb2 .content-image.bg3{
+			background: url(https://www.yamaha.com/US/ClavinovaListingPage/images/bg-right.jpg);
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: cover;
+		}
+		.gweb2 .content-card .content-header {
+			padding-top: 10%;
+			
+		}
+		.gweb2 .content-card .color-overlay {
+			background: rgba(0, 84, 166, 0.4);
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			z-index: 10;
+			top: 0;
+			left: 0;
+			-webkit-transition: background 0.4s cubic-bezier(0.33, 0.66, 0.66, 1);
+			-moz-transition: background 0.4s cubic-bezier(0.33, 0.66, 0.66, 1);
+			transition: background 0.4s cubic-bezier(0.33, 0.66, 0.66, 1);
+		}
+		.gweb2 .content-card .card-info {
+			width: 100%;
+			margin: 0 auto;
+			padding: 0 50px;
+			line-height: 1.5em;
+			transition: all 0.64s, opacity 0.8 cubic-bezier(0.33, 0.66, 0.66, 1);
+		}
+		
+		.gweb2 .video-thumbnail {
+			position: relative;
+			display: block;
+			cursor: pointer;
+			overflow: hidden;
+			margin: 0 auto;
+			max-width: 100%
+		}
+		.gweb2 .video-thumbnail .play-icon {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			-webkit-transform: translate(-50%, -50%);
+			content: "\f16a";
+			font-family: FontAwesome;
+			font-size: 10rem;
+			color: #fff;
+			opacity: .8;
+			text-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+			z-index: 1;
+		}
+		.gweb2 .video-thumbnail .play-icon:hover {
+			color: red;
+			
+		}
+
+
+
+	}
+
+	/*iPhone Retina */ 
+	@media only screen and (min-width : 320px) {
+		.gweb2 nav ul {
+			list-style: none;
+			text-align: center;
+		}
+		.gweb2 nav ul li {
+			display: inline-block;
+		}
+		.gweb2 nav ul li a {
+			display: block;
+			padding: 15px;
+			text-decoration: none;
+			color: #aaa;
+			font-weight: 800;
+			text-transform: uppercase;
+			margin: 0 10px;
+		}
+		.gweb2 nav ul li a,
+		.gweb2 nav ul li a::after,
+		.gweb2 nav ul li a::before {
+			transition: all .5s;
+		}
+		.gweb2 nav.stroke ul li a::after,
+		.gweb2 nav.fill ul li a::after {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			margin: auto;
+			width: 0%;
+			content: '.';
+			color: transparent;
+			background: #247ba0;
+			height: 2px;
+		}
+		.gweb2 nav.stroke ul li a:hover:after {
+			width: 100%;
+		}
+		.gweb2 .content-text-wrapper h3 {
+			font-size: 2em;
+		}
+		
+		/* .gweb2 .navbar-inverse .navbar-nav>.active>a::after,
+		.gweb2 .navbar-inverse .navbar-nav>.active>a:focus::after,
+		.gweb2 .navbar-inverse .navbar-nav>.active>a:hover::after {
+
+		} */
+
+
+	}
+
+	/* Extra Small Devices, Phones */ 
+	@media only screen and (min-width : 480px) {
+
+	}
+
+	/* Small Devices, Tablets */
+	@media only screen and (min-width : 768px) {
+		/* .gweb2 .video-container {
+			height: 432px;
+		} */
+		.gweb2 .overlay-content .csp-text h1 {
+			font-size: 3.5em;
+			color: #fff;
+			padding-top: 3em;
+		}
+		.gweb2 .overlay-content2 .cvp-text h1 {
+			font-size: 2.5em;
+			color: #fff;
+			padding-top: 6%;
+		}
+		.gweb2 .overlay-content3 .clp-text h1 {
+			font-size: 3.5em;
+			color: #fff;
+			padding-top: 45%;
+		}
+		.gweb2 .position-cta {
+			text-align: right;
+		}
+		.gweb2 .navbar-nav {
+			float: none;
+		}
+		.gweb2 .skew-outer {
+			/* float: left; */
+			position: relative;
+			-ms-transform: skew(-10deg, 0deg);
+			-webkit-transform: skew(-10deg, 0deg);
+			transform: skew(-10deg, 0deg);
+			width: 100%;
+			max-width: 375px;
+			height: 400px;
+			overflow: hidden;
+			justify-content: space-between;
+			border: 2px solid #fff;
+		}
+
+/*---------------*/
+/***** INFO-GRID *****/
+/*---------------*/
+		.gweb2 .skew-outer .info-grid {
+			position: absolute;
+			top: 35px;
+			z-index: 1;
+			color: #fff;
+			width: 100%;
+		}
+		/* .gweb2 .info-grid {
+
+		} */
+		.gweb2 figure {
+			-moz-transition: background-color .4s ease-in;
+			-o-transition: background-color .4s ease-in;
+			-webkit-transition: background-color .4s ease-in;
+			transition: background-color .4s ease-in;
+			background: transparent;
+		}
+		.gweb2 .info-grid figure {
+			position: relative;
+			overflow: hidden;
+			margin: 25px 1%;
+			max-height: 400px;
+			text-align: center;
+			cursor: pointer;
+		}
+		.gweb2 .info-grid figure figcaption {
+			padding: 2em;
+			color: #fff;
+			text-transform: uppercase;
+			font-size: 1.25em;
+			-webkit-backface-visibility: hidden;
+			backface-visibility: hidden;
+		}
+		.gweb2 .info-grid figure figcaption::before,
+		.gweb2 .info-grid figure figcaption::after {
+			pointer-events: none;
+		}
+		.gweb2 figure.effect-zoe figcaption {
+			top: auto;
+			bottom: 0;
+			padding: 1em;
+			-webkit-transition: -webkit-transform 0.35s;
+			transition: transform 0.35s;
+			/* -webkit-transform: translate3d(0,100%,0);
+			transform: translate3d(0,100%,0); */
+		}
+		.gweb2 figure.effect-zoe p.tagline {
+			padding: 2em;
+			text-transform: none;
+			opacity: 0;
+			-webkit-transition: opacity 0.35s;
+			transition: opacity 0.35s;
+			-webkit-backface-visibility: hidden;
+			backface-visibility: hidden;
+		}
+		.gweb2 figure.effect-zoe h3 {
+			-webkit-transition: -webkit-transform 0.35s;
+			transition: transform 0.35s;
+			-webkit-transform: translate3d(0,200%,0);
+			transform: translate3d(0,200%,0);
+		}
+		.gweb2 figure.effect-zoe h3 {
+			display: inline-block;
+			color: #fff;
+		}
+		.gweb2 figure.effect-zoe:hover {
+			background-color: rgba(0, 52, 95, 0.65);
+		}
+		.gweb2 figure.effect-zoe:hover h3 {
+			-webkit-transition-delay: 0.05s;
+			transition-delay: 0.05s;
+		}
+		
+		.gweb2 figure.effect-zoe:hover p.tagline {
+			opacity: 1;
+		}
+		.gweb2 figure.effect-zoe:hover figcaption,
+		.gweb2 figure.effect-zoe:hover h3 {
+			-webkit-transform: translate3d(0,0,0);
+			transform: translate3d(0,0,0);
+		}
+
+		.gweb2 .skew-inner.bg-left {
+			/* position: absolute;
+			left: 0; */
+			background-image: url('https://www.yamaha.com/US/ClavinovaListingPage/images/bg-left.jpg');
+			background-position: center;
+			width: 625px;
+			height: 400px;
+			-ms-transform: skew(10deg,0deg);
+			-webkit-transform: skew(10deg,0deg);
+			transform: skew(10deg,0deg);
+			margin-top: 35px;
+			margin-left: -90px;
+		}
+		.gweb2 .skew-inner.bg-center {
+			position: absolute;
+			left: 0;
+			background-image: url('https://www.yamaha.com/US/ClavinovaListingPage/images/bg-center.jpg');
+			background-position: center;
+			width: 625px;
+			height: 400px;
+			-ms-transform: skew(10deg,0deg);
+			-webkit-transform: skew(10deg,0deg);
+			transform: skew(10deg,0deg);
+			margin-top: 10px;
+			margin-left: -90px;
+		}
+		.gweb2 .skew-inner.bg-right {
+			position: absolute;
+			left: 0;
+			background-image: url('https://www.yamaha.com/US/ClavinovaListingPage/images/bg-right.jpg');
+			background-position: center;
+			width: 625px;
+			height: 400px;
+			-ms-transform: skew(10deg,0deg);
+			-webkit-transform: skew(10deg,0deg);
+			transform: skew(10deg,0deg);
+			margin-top: 35px;
+			margin-left: -90px;
+		}
+		.gweb2 .skew-div2 {
+			-webkit-clip-path: polygon(0 0, 2556px 0, 2556px 54%, 0 100%);
+			clip-path: polygon(0 0, 2556px 0, 2556px 54%, 0 100%);
+		}
+		.gweb2 .skew-div2 {
+			background-color: black;
+			background-size: cover;
+			color: #fff;
+			padding: 50px 20px;
+			position: relative;
+			text-shadow: 0px 0px 1px rgba(0,0,0,0.5);
+		}
+		.gweb2 .content-text-wrapper h3 {
+			color: #fff;
+		}
+		.gweb2 img.bg-1 {
+			max-height: 500px;
+			height: 100%;
+			width: 100%;
+			background-image: url(https://www.yamaha.com/us/clavinovalistingpage/images/cvp709GP-main.jpg);
+		}
+		.gweb2 .section img.col-img-full {
+			background-color: #000;
+			background-repeat: no-repeat;
+			background-attachment: scroll;
+			background-size: cover;
+			background-position: 5%;
+		}
+		
+	}
+
+	/* Medium Devices, Desktops */
+	@media only screen and (min-width : 992px) {
+		.gweb2 .slick-dots {
+			bottom: 100px;
+		}
+		/* .gweb2 .video-container {
+			height: 576px;
+		} */
+		
+	}
+
+	/* Large Devices, Wide Screens */
+	@media only screen and (min-width : 1200px) {
+		
+		
+		.gweb2 .overlay-content2 .cvp-text h1 {
+			font-size: 3.5em;
+			color: #fff;
+			padding-top: 9%;
+		}
+	}
+	@media only screen and (min-width : 1400px) {
+		
+	}
+
+	/* Large Devices, Wide Screens */
+	@media only screen and (min-width : 1600px) {
+		.gweb2 .video-top {
+			width: 100%;
+		}
+		/* .gweb2 .padded-calc-vert {
+			padding-top: calc(10vh - 5px);
+		} */
+	}

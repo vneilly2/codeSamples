@@ -1,0 +1,495 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.free-html > .container-fluid:first-child {
+	max-width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+}
+section.fullwidth {
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding: 0;
+	
+}
+.gweb2 a.modal-trigger {
+	color: #fff;
+	border: 0;
+}
+
+#carousel-837745{
+	display: none;
+}
+
+#wrap-product-tabs{
+    display: none;
+}
+
+.breadcrumb{
+    display: none;
+}
+
+.excuse {
+	display: none;
+}
+
+/*==========  Animate Text CSS  ==========*/
+.gweb2 .ani-element {
+	opacity: 0;
+	position: relative;
+}
+
+/*animate element slide in left*/
+
+.gweb2 .ani-element.slide-left {
+	opacity: 0;
+	-moz-transition: all 1000ms, opacity 2000ms linear;
+	-webkit-transition: all 1000ms, opacity 2000ms linear;
+	-o-transition: aall 1000ms, opacity 2000ms linear;
+	transition: all 1000ms, opacity 2000ms linear;
+	
+	-moz-transform: translate3d(-100px, 0px, 0px);
+	-webkit-transform: translate3d(-100px, 0px, 0px);
+	-o-transform: translate(-100px, 0px);
+	-ms-transform: translate(-100px, 0px);
+	transform: translate3d(-100px, 0px, 0px);
+}
+.gweb2 .ani-element.slide-left.in-view {
+	opacity: 1;
+	-moz-transform: translate3d(0px, 0px, 0px);
+	-webkit-transform: translate3d(0px, 0px, 0px);
+	-o-transform: translate(0px, 0px);
+	-ms-transform: translate(0px, 0px);
+	transform: translate3d(0px, 0px, 0px);
+}
+
+.gweb2 .ani-element.slide-right {
+	opacity: 0;
+	-moz-transition: all 1000ms, opacity 2000ms linear;
+	-webkit-transition: all 1000ms, opacity 2000ms linear;
+	-o-transition: aall 1000ms, opacity 2000ms linear;
+	transition: all 1000ms, opacity 2000ms linear;
+	
+	-moz-transform: translate3d(150px, 0px, 0px);
+	-webkit-transform: translate3d(150px, 0px, 0px);
+	-o-transform: translate(150px, 0px);
+	-ms-transform: translate(150px, 0px);
+	transform: translate3d(150px, 0px, 0px);
+}
+
+.gweb2 .ani-element.slide-right.in-view {
+	opacity: 1;
+	-moz-transform: translate3d(0px, 0px, 0px);
+	-webkit-transform: translate3d(0px, 0px, 0px);
+	-o-transform: translate(0px, 0px);
+	-ms-transform: translate(0px, 0px);
+	transform: translate3d(0px, 0px, 0px);
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+	/*Custom Base Zero*/ 
+	@media only screen and (min-width : 0px) {
+		.free-html .container-fluid {
+			max-width: 100% !important;
+		}
+		.basic-information .container-fluid.celarfix {
+			max-width: 100% !important;
+		}
+		.bg-img.fullwidth {
+			background: url(https://www.yamaha.com/us/sxseries/images/header-fallback1920x900.jpg);
+			background-repeat: no-repeat;
+			background-attachment: scroll;
+			background-origin: content-box;
+			background-position: center;
+			background-color: rgba(100,100,100,1.00);
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			background-size: cover;
+			
+		}
+		.section.bg-img {
+			padding: 120px 0;
+		}
+		.gweb2 .content-wrap-centered {
+			line-height: 2;
+		}
+		.gweb2 .position-cta {
+			text-align: center;
+		}
+		.gweb2 .col-sm-6 .content-wrap-centered {
+			margin: 5% 0;
+			width: 98.5%;
+			
+		}
+		.gweb2 .content-wrap-centered .feature {
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		.gweb2 .section img.bg-1 {
+			max-height: 500px;
+			height: 100%;
+			width: 100%;
+			background-image: url(https://www.yamaha.com/us/sxseries/images/tradition_into_future3.jpg);
+		}
+		.gweb2 .section img.bg-2 {
+			max-height: 500px;
+			height: 100%;
+			width: 100%;
+			background-image: url(https://www.yamaha.com/us/sxseries/images/dedication_to_craft.jpg);
+		}
+		.gweb2 .section img.bg-3 {
+			max-height: 500px;
+			height: 100%;
+			width: 100%;
+			background-image: url(https://www.yamaha.com/us/sxseries/images/timeless_resonance.jpg);
+		}
+		.gweb2 .section.bottom-hero-bg {
+			background-image: url(https://www.yamaha.com/us/sxseries/images/bottombanner_2140x856.jpg);
+			background-repeat: no-repeat;
+			background-attachment: scroll;
+			background-origin: content-box;
+			background-position: center;
+			background-color: #000;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			background-size: cover;
+		}
+		.gweb2 #hero-bottom {
+			padding-top: 13%;
+			padding-bottom: 13%;
+		}
+		.gweb2 .section img.col-image-full {
+			background-color: #333;
+			background-repeat: no-repeat;
+			background-attachment: scroll;
+			background-size: cover;
+			background-position: center;
+		}
+		.gweb2 .section.bg-piano-left {
+			background: url('');
+			background-repeat: no-repeat;
+			background-attachment: scroll;
+			background-origin: content-box;
+			background-position: top left;
+			background-color: rgba(255,255,255,1.00) !important;
+			/*-webkit-background-size: cover;
+			-moz-background-size: cover;
+			background-size: cover;*/
+		}
+		.gweb2 .video-top {
+			margin: auto;
+			z-index: -1;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			visibility: visible;
+			max-width: 100%;
+		}
+		.gweb2 .overlay-content {
+			position: absolute;
+			width: 100%;
+			z-index: 10;
+			margin: 0 auto;
+		}
+		.gweb2 .overlay-content .sx-logo {
+			padding-top: 0;
+		}
+		.gweb2 .sx-logo img {
+			margin: 0 auto;
+			width: 240px;
+		}
+		
+		.gweb2 .video-poster {
+			position: relative;
+			overflow: hidden;
+			margin: 15px auto;
+			max-width: 100%;
+			max-height: 600px;
+			padding: 37% 0;
+		}
+		.gweb2 .video-poster.bg-1 {
+			background: url(https://www.yamaha.com/us/sxseries/images/video_annemariemcdermott.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.gweb2 .video-poster.bg-2 {
+			background: url(https://www.yamaha.com/us/sxseries/images/video_vpOvchinnikov.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.gweb2 .video-poster.bg-3 {
+			background: url(https://www.yamaha.com/us/sxseries/images/video_mirianconte.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.gweb2 .video-poster.bg-4 {
+			background: url(https://www.yamaha.com/us/sxseries/images/video_alexSokolov.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.gweb2 .video-poster.bg-5 {
+			background: url(https://www.yamaha.com/us/sxseries/images/video_ARE.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.gweb2 .video-poster.bg-6 {
+			background: url(https://www.yamaha.com/us/sxseries/images/video_hammers.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.gweb2 .video-poster.bg-7 {
+			background: url(https://www.yamaha.com/us/sxseries/images/video_voicing.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.gweb2 .video-poster.bg-8 {
+			background: url(https://www.yamaha.com/us/sxseries/images/video_teamwork.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.gweb2 .video-info-text {
+			position: absolute;
+			bottom: 0px;
+			background: rgba(0, 0, 0, 0.55);
+			padding: 5% 0;
+			color: #fff;
+			margin: 0;
+			width: 100%;
+		}
+		.gweb2 .video-play-btn .fa.fa-play-circle-o {
+			font-size: 2.5em;
+			cursor: pointer;
+		}
+		.gweb2 .video-play-btn .fa.fa-play-circle-o:hover {
+			color: #FF0004;
+		}
+		.gweb2 .hoverOn.red {
+			color: #FF0004;
+		}
+		
+		/* Video Custom Modal */
+		.video-box {
+			top: 0;
+			right: 0;
+			left: 0;
+			bottom: 0;
+			position: fixed;
+			z-index: 100;
+			overflow: hidden;
+			background: #000;
+		}
+		.video-close {
+			background: #222;
+			border-radius: 50%;
+			width: 48px;
+			height: 48px;
+			color: rgba(255, 255, 255, 0.77);
+			border: 1px solid rgba(255, 255, 255, 0.34);
+			top: 45px;
+			right: 40px;
+			text-align: center;
+			line-height: 1.4;
+			font-size: 3rem;
+			cursor: pointer;
+			position: absolute;
+			z-index: 100;
+		}
+		.video-iframe {
+		  width: 100%;
+		  height: 100%
+		}
+
+		/* .gweb2 .effects {
+			padding-left: 5px;
+		}
+		.gweb2 .effects .prod-image {
+			position: relative;
+			float: left;
+			margin-bottom: 5px;
+			overflow: hidden;
+		}
+		
+		.gweb2 .link-overlay {
+			display: block;
+			position: absolute;
+			z-index: 20;
+			background: rgba(0, 0, 0, 0.8);
+			overflow: hidden;
+			-webkit-transition: all 0.5s;
+			-moz-transition: all 0.5s;
+			transition: all 0.5s;
+		}
+		.gweb2 .effects .link-overlay {
+			bottom: 0;
+			left: 0;
+			right: 0;
+			width: 100%;
+			height: 0;
+		}
+		
+
+		.gweb2 a.close-link-overlay {
+			display: block;
+			position: absolute;
+			z-index: 100;
+			background: rgba(0, 0, 0, 1.0);
+			color: #fff;
+			top: 0;
+			right: 0;
+			width: 45px;
+			height: 45px;
+			font-size: 1.75em;
+			font-weight: 600;
+			line-height: 1.75;
+			text-align: center;
+			cursor: pointer;
+		}
+		.gweb2 a.expand {
+			display: block;
+			position: absolute;
+			z-index: 100;
+			width: 60px;
+			height: 60px;
+			border: 5px solid #fff;
+			text-align: center;
+			color: #fff;
+			line-height: 1.85;
+			font-size: 1.9em;
+			border-radius: 30px;
+		}
+		.gweb2 .effects .link-overlay a.expand {
+			bottom: 50%;
+			left: 0;
+			right: 0;
+			margin: 0 auto -30px auto;
+		}
+		.gweb2 .link-overlay a.expand:hover {
+			text-decoration: none !important;
+			color: #FF0004;
+			border: 5px solid #FF0004;
+		}
+		.gweb2 .effects .prod-image.hover .link-overlay {
+			height: 100%;
+		} */
+		.gweb2 .effects .prod-image img {
+			display: block;
+			margin: 0 auto;
+			padding: 0;
+			max-width: 100%;
+			height: auto;
+			cursor: pointer;
+		}
+		#d1095053 .container-fluid {
+			/* padding: 0 !important;
+			margin-left: 0 !important; */
+		}
+		.gweb2 .effects .prod-image img.dim {
+			opacity: 0.2;
+		}
+
+		.gweb2 figure {
+			max-width: 100%;
+			overflow: hidden;
+			position: relative;
+			display: block;
+			vertical-align: top;
+			margin: 0 auto;
+			/* box-shadow: 0 0 5px #333; */
+		}
+		.gweb2 figure img {
+			-webkit-transition: all 0.4s linear;
+			transition: all 0.4s linear;
+			-webkit-transform: scale3d(1, 1, 1);
+			transform: scale3d(1, 1, 1);
+
+		}
+		.gweb2 figure:hover img,
+		.gweb2 #model-objects figure:hover img {
+			-webkit-transform: scale3d(1.09, 1.09, 1);
+			transform: scale3d(1.09, 1.09, 1);
+		}
+		
+
+
+	}
+	
+
+	/*iPhone Retina */ 
+	@media only screen and (min-width : 320px) {
+		
+	}
+
+	/* Extra Small Devices, Phones */ 
+	@media only screen and (min-width : 480px) {
+
+	}
+
+	/* Small Devices, Tablets */
+	@media only screen and (min-width : 768px) {
+		.gweb2 .position-cta {
+			text-align: right;
+		}
+		.gweb2 .overlay-content .sx-logo {
+			padding-top: 25%;
+			padding-right: 15%;
+		}
+		
+	}
+
+	/* Medium Devices, Desktops */
+	@media only screen and (min-width : 992px) {
+		.gweb2 .section.bg-piano-left {
+			background: url(https://www.yamaha.com/us/sxseries/images/bg-pianoleft.gif);
+			background-repeat: no-repeat;
+			background-origin: content-box;
+			background-position: top left;
+			background-size: 33%;
+			/*background-color: rgba(248,248,248,1.00);
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			background-size: cover;
+			background-attachment: scroll;*/
+		}
+		.gweb2 .col-sm-6 .content-wrap-centered {
+			margin: 0 auto;
+			padding: 10% 0;
+			width: 80%;
+			
+		}
+		.gweb2 #model-objects.section {
+			/*padding-top: 15%;
+			padding-bottom: 15%;
+			padding-left: 0!important;
+			padding-right: 0!important;*/
+		}
+		.gweb2 .overlay-content .sx-logo {
+			padding-top: 25%;
+		}
+		
+	}
+
+	/* Large Devices, Wide Screens */
+	@media only screen and (min-width : 1200px) {
+		.gweb2 .sx-logo img {
+			margin: 0 auto;
+			width: 300px;
+		}
+	}
+
+/* Large Devices, Wide Screens */
+	@media only screen and (min-width : 1295px) {
+		.gweb2 .overlay-content .sx-logo {
+			padding-top: 25%;
+		}
+	}
+
+/* Large Devices, Wide Screens */
+	@media only screen and (min-width : 1400px) {
+		.gweb2 .sx-logo img {
+			margin: 0 auto;
+			width: 360px;
+		}
+	}
