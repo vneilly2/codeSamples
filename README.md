@@ -1,7 +1,4 @@
-# codeSamples
-YCA Responsive Rebate iFrame JS
-
-JS/jQuery script file to support Yamaha Corporation of America Online product Rebates template.
+# codeSamples : Client Yamaha Corporation of America
 
 Live production urls utilizing this support JS file "yca-tridion-rebate.js"
 1. https://usa.yamaha.com/promotions/New_Year_New_Gear_Rebate/index.html
